@@ -110,3 +110,64 @@ body {
 .header-nav-link:first-child::before {
   display: none;
 }
+
+/*slider styles*/
+
+.slider {
+  background-color: #f06c64;
+  border-bottom: 6px solid #ea676b;
+}
+
+.slider-phones {
+  position: relative;
+}
+
+.vertical-phone {
+  position: absolute;
+  top: 50px;
+  left: 100px;
+}
+
+.vertical-pic {
+  position: absolute;
+  top: 110px;
+  left: 120px;
+}
+
+.horizontal-phone {
+  position: absolute;
+  top: 168px;
+  right: 110px;
+}
+
+.horizontal-pic {
+  position: absolute;
+  top: 181px;
+  right: 190px;
+}
+
+.arrows {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow-btn {
+  display: block;
+  margin: 260px 19px 262px 19px;
+  padding: 20px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 10%;
+  outline: none;
+  cursor: pointer;
+}
+
+.arrow-left {
+  margin-left: 21px;
+}
+
+.arrow-btn:hover,
+.arrow-btn:active {
+  background-color: #ea676b;
+  border: 1px solid #ca4549;
+}
