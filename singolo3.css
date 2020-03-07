@@ -184,3 +184,42 @@ textarea.quote__text-form::placeholder {
 .contact__image {
   padding-right: 12px;
 }
+
+/*footer styles*/
+
+.footer {
+  background-color: #2d303a;
+}
+
+.footer__elements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__copyright {
+  font-family: Lato, sans-serif;
+  font-weight: 500;
+  font-size: 11.5px;
+  color: #666d89;
+  padding-bottom: 3px;
+  padding-left: 2px;
+}
+
+.about-us__social-media {
+  margin: 22px 0;
+}
+
+.media-icon + .media-icon {
+  margin-left: 4px;
+}
+
+.media-icon:last-child {
+  margin-left: 4px;
+}
+
+.media-icon:hover {
+  cursor: pointer;
+  background-color: #cfd1d8;
+  border-radius: 15px;
+}
